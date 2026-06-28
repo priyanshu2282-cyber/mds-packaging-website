@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://mds-packaging-website.vercel.app/sitemap.xml
