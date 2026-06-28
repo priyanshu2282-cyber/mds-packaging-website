@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import logo from "../assets/logo/logo-transparent.png";
 
 function Hero() {
   return (
@@ -15,7 +16,7 @@ function Hero() {
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1 }}
-          src="/src/assets/logo/logo-transparent.png"
+          src={logo}
           alt="MDS Packaging"
           className="w-40 mb-8"
         />
