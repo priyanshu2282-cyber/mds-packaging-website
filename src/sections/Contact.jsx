@@ -110,7 +110,7 @@ function Contact() {
               <input
                 type="hidden"
                 name="_next"
-                value="http://localhost:5173"
+                value="https://mds-packaging-website.vercel.app/#contact"
               />
               <textarea
                 rows="5"
